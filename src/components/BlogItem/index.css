@@ -1,0 +1,49 @@
+.post-container {
+  list-style-type: none;
+  border-bottom: 1px solid #e7e5ea;
+}
+
+.name-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #12022f;
+}
+
+@media screen and (min-width: 576px) {
+  .post-title {
+    font-size: 18px;
+  }
+}
+
+.post-publishDate {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 576px) {
+  .post-publishDate {
+    font-size: 15px;
+  }
+}
+
+.post-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  width: 85%;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 576px) {
+  .post-description {
+    font-size: 15px;
+  }
+}
